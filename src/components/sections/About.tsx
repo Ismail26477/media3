@@ -8,7 +8,7 @@ const stats = [
 
 const About = () => {
   return (
-    <section id="about" className="relative py-32 overflow-hidden">
+    <section id="about" className="relative py-20 overflow-hidden">
       <div className="absolute -left-40 top-1/3 w-[500px] h-[500px] bg-primary/15 blur-[120px] rounded-full pointer-events-none" />
 
       <div className="container grid lg:grid-cols-2 gap-16 items-start">

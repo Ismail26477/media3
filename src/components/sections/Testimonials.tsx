@@ -39,7 +39,7 @@ const Testimonials = () => {
   const t = testimonials[i];
 
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-20 overflow-hidden">
       <div className="absolute inset-0 bg-radial-glow opacity-40 pointer-events-none" />
       <div className="container max-w-4xl text-center">
         <p className="eyebrow mb-6">▸ Client Voices</p>

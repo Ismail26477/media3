@@ -36,7 +36,7 @@ const Collaborations = () => {
   const loop = [...people, ...people];
 
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-20 overflow-hidden">
       <div className="container">
         <div className="max-w-3xl mb-16">
           <motion.p

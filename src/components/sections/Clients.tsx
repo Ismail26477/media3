@@ -18,7 +18,7 @@ const clients = [
 
 const Clients = memo(() => {
   return (
-    <section className="relative py-20 md:py-32 bg-black">
+    <section className="relative py-16 md:py-20 bg-black">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background via-black to-black pointer-events-none" />
       
       <div className="container">

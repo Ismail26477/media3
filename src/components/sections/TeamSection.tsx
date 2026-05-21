@@ -48,7 +48,7 @@ const teamMembers = [
 
 const TeamSection = () => {
   return (
-    <section className="relative py-32 overflow-hidden bg-background">
+    <section className="relative py-20 overflow-hidden bg-background">
       <div className="absolute -right-40 top-1/3 w-[500px] h-[500px] bg-primary/10 blur-[120px] rounded-full pointer-events-none" />
 
       <div className="container">
