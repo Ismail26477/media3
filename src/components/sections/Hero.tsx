@@ -13,24 +13,20 @@ const Hero = memo(() => {
       <div
         className="
           absolute
-          -top-10
-          left-0
+          inset-0
           w-full
-          h-[115%]
+          h-full
           bg-cover
-          bg-top
-          md:bg-center
+          bg-center
           bg-no-repeat
-          scale-150
-          md:scale-100
         "
         style={{
-          backgroundImage: "url('/hero-background.jpg')",
+          backgroundImage: "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PubmGcyQTJyqpl087cA8aeMwY3tT07.png')",
+          backgroundColor: "#f5f5f5"
         }}
       />
 
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/60" />
+      {/* Dark Overlay - Removed for clean logo background */}
 
       {/* Hero Content */}
       <div className="relative z-10 flex flex-col items-center justify-center w-full h-full px-4 text-center">
@@ -41,7 +37,7 @@ const Hero = memo(() => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           className="
-            text-white
+            text-gray-700
             uppercase
             font-light
             tracking-[0.35em]
@@ -83,16 +79,16 @@ const Hero = memo(() => {
             to="/contact"
             className="
               border
-              border-white
-              text-white
+              border-gray-700
+              text-gray-700
               uppercase
               tracking-[0.25em]
               text-[11px]
               font-semibold
               px-8
               py-3
-              hover:bg-white
-              hover:text-black
+              hover:bg-gray-700
+              hover:text-white
               transition
             "
           >
@@ -111,7 +107,9 @@ const Hero = memo(() => {
             flex
             flex-col
             items-center
-            text-[#d88345]
+            text-gray-600
+            hover:text-gray-800
+            transition
           "
         >
           <span className="text-[10px] uppercase tracking-[0.4em] mb-2">
