@@ -86,7 +86,7 @@ const TeamSection = () => {
                 </div>
                 <div className="p-4 space-y-2">
                   <div>
-                    <h3 className="text-lg font-semibold text-foreground">
+                    <h3 className="text-sm font-bold text-white uppercase tracking-wide">
                       {member.name}
                     </h3>
                     <p className="text-xs text-primary font-medium">
