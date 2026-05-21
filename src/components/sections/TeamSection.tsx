@@ -77,11 +77,11 @@ const TeamSection = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
               <Card className="overflow-hidden group hover:shadow-xl transition-shadow duration-300 bg-background-elevated border-border">
-                <div className="h-64 overflow-hidden bg-muted flex items-center justify-center">
+                <div className="h-64 overflow-hidden bg-muted">
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-4 space-y-2">
