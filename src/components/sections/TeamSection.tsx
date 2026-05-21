@@ -67,7 +67,7 @@ const TeamSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {teamMembers.map((member, index) => (
             <motion.div
               key={member.id}
@@ -77,23 +77,23 @@ const TeamSection = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
               <Card className="overflow-hidden group hover:shadow-xl transition-shadow duration-300 bg-background-elevated border-border">
-                <div className="aspect-square overflow-hidden bg-muted">
+                <div className="h-64 overflow-hidden bg-muted">
                   <img
                     src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <div className="p-6 space-y-3">
+                <div className="p-4 space-y-2">
                   <div>
-                    <h3 className="text-xl font-semibold text-foreground">
+                    <h3 className="text-lg font-semibold text-foreground">
                       {member.name}
                     </h3>
-                    <p className="text-sm text-primary font-medium">
+                    <p className="text-xs text-primary font-medium">
                       {member.position}
                     </p>
                   </div>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                  <p className="text-xs text-muted-foreground leading-relaxed line-clamp-2">
                     {member.bio}
                   </p>
                 </div>
